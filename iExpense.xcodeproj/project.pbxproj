@@ -41,9 +41,6 @@
 		445B06FD2A916B4700A39A94 = {
 			isa = PBXGroup;
 			children = (
-				44C3BE4D2A93ACE100C24054 /* AddView.swift */,
-				44C3BE492A93A85500C24054 /* ExpenseItem.swift */,
-				44C3BE4B2A93A8C000C24054 /* Expenses.swift */,
 				445B07082A916B4700A39A94 /* iExpense */,
 				445B07072A916B4700A39A94 /* Products */,
 			);
@@ -60,6 +57,9 @@
 		445B07082A916B4700A39A94 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				44C3BE4D2A93ACE100C24054 /* AddView.swift */,
+				44C3BE492A93A85500C24054 /* ExpenseItem.swift */,
+				44C3BE4B2A93A8C000C24054 /* Expenses.swift */,
 				445B07092A916B4700A39A94 /* iExpenseApp.swift */,
 				445B070B2A916B4700A39A94 /* ContentView.swift */,
 				445B070D2A916B4800A39A94 /* Assets.xcassets */,
@@ -279,7 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
-				DEVELOPMENT_TEAM = 3XF7K7C56U;
+				DEVELOPMENT_TEAM = S736JG73R9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,7 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
-				DEVELOPMENT_TEAM = 3XF7K7C56U;
+				DEVELOPMENT_TEAM = S736JG73R9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

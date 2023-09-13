@@ -29,7 +29,11 @@ struct ContentView: View {
                                 Spacer()
                                 Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                                     .foregroundColor(item.amount > 1000 ? .red : item.amount < 10 ? .green : item.amount < 100 ? .yellow : .black)
-                                }
+                            }
+                            .accessibilityElement()
+                            .accessibilityLabel("\(item.name)")
+                            .accessibilityValue(String(item.amount))
+                            .accessibilityHint("\(item.type)")
                             }
                     }
                     .onDelete(perform: removeItems)
@@ -51,6 +55,9 @@ struct ContentView: View {
                                     .foregroundColor(item.amount > 1000 ? .red : item.amount < 10 ? .green : item.amount < 100 ? .yellow : .black)
                                     
                             }
+                            .accessibilityElement()
+                            .accessibilityLabel("\(item.type) expense \(item.name)")
+                            .accessibilityValue(String(item.amount))
                         }
 
                     }
